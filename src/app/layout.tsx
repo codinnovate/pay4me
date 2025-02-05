@@ -6,10 +6,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-      <Provider store={store}>
+      <body className="max-w-6xl mx-auto p-2"> 
         {children}
-      </Provider>
       </body>
     </html>
   );

@@ -1,3 +1,4 @@
+import OtherFeatures from "./OtherFeatures";
 import Partner from "./Partner";
 
 export default function Features(){
@@ -5,6 +6,7 @@ export default function Features(){
         <section className="flex flex-col  w-full overflow-hidden">
             <Partner
              />
+             <OtherFeatures />
         </section>
     )
 }

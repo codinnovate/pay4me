@@ -19,6 +19,7 @@ function FeatureCard(){
          <h2 className="text-3xl font-bold">Feature Title</h2>
          <p className="text-lg">Description of the feature</p>
          <Button title={btnText} />
+         
         </div>
     )
 }

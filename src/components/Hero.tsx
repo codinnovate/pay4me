@@ -42,7 +42,7 @@ export default function Hero(){
                  className="absolute bottom-0 right-0"  
                  />
             </div>
-
+             
         </div>
             
         </section>

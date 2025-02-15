@@ -3,7 +3,7 @@ import Button from "./Button"
 
 export default function OtherFeatures(){
     return (
-        <section className='flex flex-col'>
+        <section className='flex flex-col mt-[40px]'>
             <div className="flex flex-col md:flex-row">
                 <FeatureCard 
                  text='Super fast tuition and school fees payments'
@@ -50,9 +50,9 @@ interface IFeature{
 }
 function FeatureCard({text, image, desc, className, btnText}:IFeature){
     return (
-        <div className="w-full h-[592px] flex flex-col justify-between">
+        <div className="w-full h-[592px] flex flex-col  justify-between">
         {image && 
-         <Image src={image}  alt='images' height={317} width={1000} className="w-full h-[317px]"/>
+         <Image src={image}  alt='images' height={317} width={1000} className="!w-full h-[317px] rounded-2xl"/>
         }
         {text && 
         <div className="p-8 flex flex-col">

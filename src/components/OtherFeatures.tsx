@@ -42,7 +42,7 @@ export default function OtherFeatures(){
 
 interface IFeature{
     text?: string,
-    image?: StaticImageData,
+    image?: StaticImageData | string,
     className: string,
     btnText?: string,
     desc?: string
